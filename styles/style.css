@@ -1,0 +1,77 @@
+/* fonts */
+@font-face {
+  font-family: 'vazer';
+  src: url(../fonts/Vazir.ttf);
+}
+.lalezar{
+  font-family: 'lalezar';
+}
+body{
+  font-family: vazir, sans-serif;
+  font-size: 1rem;
+}
+@media screen and (min-width : 768px){
+  .position-md-fixed{
+    position: fixed;
+  }
+  
+}
+.course-list{
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px 0;
+}
+.course-list-item{
+  display: flex;
+  padding: 10px 15px;
+}
+.course-list-item:hover{
+  background-color: rgb(240, 240, 240);
+}
+.header{
+  background: url('../images/soft-blue-lines-wave-style-background.jpg') top center no-repeat ;
+  background-size: cover;
+}
+.counter-box{
+  transition: all 0.5s;
+}
+.counter-box:hover{
+  transform: scale(1.05);
+}
+.service-box{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-bottom: 4px solid;
+  border-radius: 5px;
+}
+.service-box .read-more{
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.service-box.border-primary:hover{
+  background: #5e91dd;
+}
+.service-box.border-secondary:hover{
+  background: #7d868f;
+}
+.service-box.border-success:hover{
+  background: rgb(79, 151, 79);
+}
+.service-box:hover{
+  color: white;
+}
+.service-box:hover .read-more{
+  color: white !important;
+}
+.shadowbox{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10%;
+}
+
+.footer{
+  background: #f2f5fc;
+}
